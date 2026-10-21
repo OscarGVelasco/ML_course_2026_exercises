@@ -6,6 +6,9 @@
 
 Welcome to the course exercises. Here you will find relevant information as of how to set-up the python libraries needed for the exercises, as well as an introductory script to familiarize yourself with some basic python code we will use throughout the course.
 
+**The data we are going to use on the exercises can be accessed here:**
+https://hub.dkfz.de/s/Rm3dXFEXtkMzDS7
+
 ## Getting started
 
 Requirements
