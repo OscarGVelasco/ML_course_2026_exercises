@@ -104,7 +104,12 @@ Exercises based on a single-cell RNA-seq dataset of human breast tissue from the
 |------------------------------------|------------------------------------|
 | `01_scRNAseq_breast_exploration_QC.ipynb` | Introductory notebook: data exploration, quality control, PCA/UMAP and marker genes |
 | `tabula_sapiens_breast_counts.h5ad` | Dataset (raw counts, \~15,000 cells from 2 donors) |
+| `02_aging_brain_regression.ipynb` | Regression exercise: predict donor age from brain gene expression (OLS, Ridge, LASSO, Elastic Net) |
+| `aging_training.csv` | Regression dataset (training split: 652 donors x 1,077 genes + age) |
+| `aging_testing.csv` | Regression dataset (test split: 280 donors x 1,077 genes + age) |
 
-Keep both files in the same folder.
+Keep all files in the same folder.
 
 Start with the notebook **`01_scRNAseq_breast_exploration_QC.ipynb`**, which serves as the introduction to the course. Go through it cell by cell: it shows how single-cell data are stored, how to explore and quality-check them, and how to normalise and visualise them with PCA and UMAP. Read the explanations and try to run each cell. The processed dataset that the script saves at the end (`tabula_sapiens_breast_processed.h5ad`) will be used in the following exercises.
+
+Notebook **`02_aging_brain_regression.ipynb`** is the regression exercise: predicting donor age from brain gene expression. The two CSV files are available from the [DKFZ hub](https://hub.dkfz.de/s/Rm3dXFEXtkMzDS7) and are read from the same folder as the notebook.
